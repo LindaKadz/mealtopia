@@ -17,6 +17,7 @@ defmodule MealtopiaWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    resources "/menu", MenuController
   end
 
   # Other scopes may use custom stacks.
