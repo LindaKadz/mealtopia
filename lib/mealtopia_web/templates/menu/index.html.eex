@@ -1,0 +1,4 @@
+<%= for menu <- @menus do %>
+      <%= menu.name %>
+      <%= menu.description %>
+    <% end %>
