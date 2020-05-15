@@ -1,2 +1,4 @@
 <img src="<%= MealtopiaWeb.Uploads.Images.url({@menu.image_one, @menu}) %>"/>
 <img src="<%= MealtopiaWeb.Uploads.Images.url({@menu.image_two, @menu}) %>"/>
+<%= @menu.name %>
+<%= @menu.description %>

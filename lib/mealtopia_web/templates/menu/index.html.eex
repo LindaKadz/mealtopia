@@ -1,8 +1,29 @@
-<%= for menu <- @menus do %>
-      <%= menu.name %>
-      <%= menu.description %>
-      <%=
-    MealtopiaWeb.Uploads.Images.url({menu.image_one, menu}, :thumb)
-    |> img_tag()
-  %>
-    <% end %>
+<div class="has-text-centered">
+  <h1 class="title"> Menu </h1>
+</div>
+    <%= for menu <- @menus do %>
+    <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            <%=
+          MealtopiaWeb.Uploads.Images.url({menu.image_one, menu}, :thumb)
+          |> img_tag()
+        %>
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong><%= menu.name %></strong>
+              <br>
+              <%= menu.description %>
+            </p>
+          </div>
+          <nav class="level is-mobile">
+            <button class="button is-dark">View</button>
+          </nav>
+        </div>
+      </article>
+    </div>
+<% end %>
