@@ -1,40 +1,23 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>A productive web framework that<br/>does not compromise speed and maintainability.</p>
-</section>
-
-<div class="buttons">
-  <button class="button is-primary">Primary</button>
-  <button class="button is-link">Link</button>
+<div id="page-index">
+  <section class="hero is-fullheight-with-navbar intro">
+      <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title is-size-1 has-text-warning">
+              Welcome to Mealtopia
+            </h1>
+            <h2 class="subtitle has-text-warning">Quick Question:
+              <i>If you could be a coffee mug, what Coffee Mug would you be?</i>
+            </h2>
+            <h2 class="subtitle has-text-warning">
+              <i>Check if we have your mug!</i>
+            </h2>
+              <a class="button is-primary is-light is-medium">
+                <strong>Find your Mug</strong>
+              </a>
+              <a class="button is-link is-light is-medium" href="<%= Routes.menu_path(@conn, :index) %>">
+                <strong>Menu</strong>
+              </a>
+          </div>
+      </div>
+    </section>
 </div>
-
-<section class="row">
-  <article class="column">
-    <h2>Resources</h2>
-    <ul>
-      <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.4/CHANGELOG.md">v1.4 Changelog</a>
-      </li>
-    </ul>
-  </article>
-  <article class="column">
-    <h2>Help</h2>
-    <ul>
-      <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
-      </li>
-      <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-    </ul>
-  </article>
-</section>

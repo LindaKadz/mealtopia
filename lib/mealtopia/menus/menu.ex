@@ -10,6 +10,7 @@ defmodule Mealtopia.Menus.Menu do
 
   schema "menus" do
     field :name, :string
+    field :price, :string
     field :description, :string
     field :image_one, Images.Type
     field :image_two, Images.Type
@@ -17,8 +18,8 @@ defmodule Mealtopia.Menus.Menu do
 
   def changeset(menu, attrs) do
     menu
-    |> cast(attrs, [:name, :description, :image_one, :image_two])
+    |> cast(attrs, [:name, :description, :price, :image_one, :image_two])
     |> cast_attachments(attrs, [:image_one, :image_two])
-    |> validate_required([:name, :description, :image_one])
+    |> validate_required([:name, :price, :description, :image_one])
   end
 end
