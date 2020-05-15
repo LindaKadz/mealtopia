@@ -1,3 +1,4 @@
+<br>
 <div class="has-text-centered">
   <h1 class="title"> Menu </h1>
 </div>
@@ -15,7 +16,7 @@
         <div class="media-content">
           <div class="content">
             <p>
-              <strong><%= menu.name %></strong>
+              <strong><%= menu.name %>, $<%= menu.price %></strong>
               <br>
               <%= menu.description %>
             </p>

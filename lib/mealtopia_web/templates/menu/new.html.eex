@@ -3,7 +3,7 @@
     <p>Please check on the errors below.</p>
   </div>
 <% end %>
-
+<br>
 <div class="has-text-centered">
   <h1 class="title"> Add New Menu Item </h1>
 </div>
@@ -11,45 +11,35 @@
   <div class="column is-6">
 <%= form_for @changeset, Routes.menu_path(@conn, :create), [multipart: true], fn f-> %>
   <div class="field">
-  <%= label f, :name%>
+  <%= label f, :name %>
   <%= text_input f, :name, placeholder: "Title", class: "input is-primary" %>
-  <%= error_tag f, :title %>
+  <%= error_tag f, :name %>
   </div>
 
   <div class="field">
-  <%= label f, :description%>
+  <%= label f, :price %>
+  <%= text_input f, :price, placeholder: "Title", class: "input is-primary" %>
+  <%= error_tag f, :price %>
+  </div>
+
+  <div class="field">
+  <%= label f, :description %>
   <%= textarea f, :description, rows: 12, placeholder: "Content", class: "textarea is-primary" %>
   <%= error_tag f, :description %>
   </div>
 
-  <div class="file">
-    <%= label f, :upload_image_one, class: "file-label"%>
-    &nbsp; <%= file_input f, :image_one, class: "file-input", type: "file", name: "resume"%>
-    <span class="file-cta">
-      <span class="file-icon">
-        <i class="fas fa-upload"></i>
-      </span>
-      <span class="file-label">
-        Choose a file…
-      </span>
-    </span>
-    <%= error_tag f, :image_one %>
-</div>
+  <div class="field">
+  <%= label f, :upload_image_one, class: "file-label" %>
+  &nbsp; <%= file_input f, :image_one %>
+  <%= error_tag f, :image_one %>
+  </div>
 <br>
 
-<div class="file">
-  <%= label f, :upload_image_two, class: "file-label"%>
-  &nbsp; <%= file_input f, :image_two, class: "file-input", type: "file", name: "resume"%>
-  <span class="file-cta">
-    <span class="file-icon">
-      <i class="fas fa-upload"></i>
-    </span>
-    <span class="file-label">
-      Choose a file…
-    </span>
-  </span>
+  <div class="field">
+  <%= label f, :upload_image_two, class: "file-label" %>
+  &nbsp; <%= file_input f, :image_two %>
   <%= error_tag f, :image_two %>
-</div>
+  </div>
 
   <%= submit "Add Menu Item", class: "button is-success"%>
 <% end %>
