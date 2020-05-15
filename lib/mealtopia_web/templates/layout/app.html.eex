@@ -25,11 +25,11 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item">
+        <a class="navbar-item" href="<%= Routes.page_path(@conn, :index) %>">
           Home
         </a>
 
-        <a class="navbar-item">
+        <a class="navbar-item" href="<%= Routes.menu_path(@conn, :index) %>">
           Menu
         </a>
 
