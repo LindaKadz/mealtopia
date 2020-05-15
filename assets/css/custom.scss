@@ -1,0 +1,17 @@
+#page-index {
+  .intro {
+  background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url('/images/winnie1.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 900px;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .intro {
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url('/images/elephant.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 900px;
+    }
+  }
+}
