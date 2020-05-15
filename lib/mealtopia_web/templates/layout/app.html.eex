@@ -12,7 +12,7 @@
     <header>
       <nav class="navbar is-black" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://mealtopia.io">
+      <a class="navbar-item" href="<%= Routes.page_path(@conn, :index) %>">
         <strong> <h1 class="has-text-weight-bold is-size-1"><i>Mealtopia</i></h1> </strong>
       </a>
 
