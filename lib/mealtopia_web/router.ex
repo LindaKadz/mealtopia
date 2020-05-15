@@ -17,6 +17,7 @@ defmodule MealtopiaWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/mugs", PageController, :mug
     resources "/menu", MenuController
   end
 

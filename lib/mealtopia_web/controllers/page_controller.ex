@@ -4,4 +4,8 @@ defmodule MealtopiaWeb.PageController do
   def index(conn, _params) do
     render(conn, "index.html")
   end
+
+  def mug(conn, _params) do
+    render(conn, "mugs.html")
+  end
 end

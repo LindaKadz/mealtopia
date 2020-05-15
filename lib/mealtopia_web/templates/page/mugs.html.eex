@@ -1,0 +1,367 @@
+<br>
+<div class="content is-medium has-text-centered">
+  <h1>Check if we have a coffee mug that describes you! </h1>
+</div>
+
+<div class="columns is-multiline">
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/bear.JPG") %>" alt="Bear Coffee Mug">
+            </figure>
+        </div>
+          <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Bear Coffee Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/bee.JPG") %>" alt="Winnie the Pooh Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Winnie the Pooh Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/day.JPG") %>" alt="Have a Smashing Day">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Have a Smashing Day Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/dog.JPG") %>" alt="Life is Good Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Life is Good Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/elephant.JPG") %>" alt="Elephant Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Elephant Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/fly.JPG") %>" alt="Dragon Fly Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Dragon Fly Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/fog.JPG") %>" alt="Fox Man Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Fox Man Mug??
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/fox.JPG") %>" alt="Fox Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Fox Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/gun.JPG") %>" alt="Gun Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+             Gun Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/hog.JPG") %>" alt="Hedge Hog Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Hedge Hog Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/llama.JPG") %>" alt="Llama Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Llama Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/love.JPG") %>" alt="Love Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Love Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/magic.JPG") %>" alt="Magic Man Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Magic Man Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/manilla.JPG") %>" alt="Manilla Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Manilla Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/monkey.JPG") %>" alt="Monkey Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Monkey Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/rhino.JPG") %>" alt="Rhino Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Rhino Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/sf.JPG") %>" alt="San Francisco Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              San Francisco Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/sheep.JPG") %>" alt="Sheep Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Sheep Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/skull.JPG") %>" alt="Skull Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Skull Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/squirl.JPG") %>" alt="Baby Squirrel Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Baby Squirrel Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/squirrel.JPG") %>" alt="Adult Squirrel Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Adult Squirrel Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/usa.JPG") %>" alt="USA Bike Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              USA Bike Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/winnie.JPG") %>" alt="Hamster Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Hamster Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="<%= Routes.static_path(@conn, "/images/zebra.JPG") %>" alt="Zebra Mug">
+            </figure>
+        </div>
+        <br>
+        <footer class="card-footer">
+            <a class="card-footer-item">
+              Zebra Mug
+            </a>
+        </footer>
+    </div>
+  </div>
+</div>
