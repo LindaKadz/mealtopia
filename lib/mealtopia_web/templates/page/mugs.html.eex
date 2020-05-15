@@ -1,0 +1,77 @@
+<section class="section">
+        <div class="container is-fluid">
+            <div class="columns">
+                <div class="column">
+                    <img src="<%= Routes.static_path(@conn, "/images/bear.JPG") %>" onclick="openModal();currentSlide(1)">
+                    <img src="https://source.unsplash.com/800x550/?nature,water" onclick="openModal();currentSlide(4)">
+                </div>
+                <div class="column">
+                    <img src="https://source.unsplash.com/800x600/?nature,water" onclick="openModal();currentSlide(2)">
+                    <img src="https://source.unsplash.com/800x650/?nature,water" onclick="openModal();currentSlide(5)">
+                </div>
+                <div class="column">
+                    <img src="https://source.unsplash.com/800x900/?nature,water" onclick="openModal();currentSlide(3)">
+                    <img src="https://source.unsplash.com/800x700/?nature,water" onclick="openModal();currentSlide(6)">
+                </div>
+            </div>
+
+            <div class="modal" id="myModal">
+                <div class="modal-content is-vcentered">
+                  <div class="item-slide">
+                    <img src="https://source.unsplash.com/800x1000/?nature,water">
+                  </div>
+                  <div class="item-slide">
+                    <img src="https://source.unsplash.com/800x600/?nature,water">
+                  </div>
+                  <div class="item-slide">
+                    <img src="https://source.unsplash.com/800x900/?nature,water">
+                  </div>
+                  <div class="item-slide">
+                    <img src="https://source.unsplash.com/800x550/?nature,water">
+                  </div>
+                  <div class="item-slide">
+                    <img src="https://source.unsplash.com/800x650/?nature,water">
+                  </div>
+                  <div class="item-slide">
+                    <img src="https://source.unsplash.com/800x700/?nature,water">
+                  </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              <button onclick="closeModal()" class="modal-close is-large" aria-label="close"></button>
+            </div>
+        </div>
+    </section>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("item-slide");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+</script>
