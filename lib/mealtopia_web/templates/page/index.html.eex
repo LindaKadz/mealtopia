@@ -11,8 +11,12 @@
             <h2 class="subtitle has-text-warning">
               <i>Check if we have your mug!</i>
             </h2>
-              <button class="button is-primary is-light is-medium">Find your Mug</button>
-                <button class="button is-link is-light is-medium">Menu</button>
+              <a class="button is-primary is-light is-medium">
+                <strong>Find your Mug</strong>
+              </a>
+              <a class="button is-link is-light is-medium" href="<%= Routes.menu_path(@conn, :index) %>">
+                <strong>Menu</strong>
+              </a>
           </div>
       </div>
     </section>
